@@ -1,8 +1,8 @@
 /* eslint-env jest */
 
 // Dependencies
-const printPrettyError = require('../dist/print-pretty-error').default;
-const chalk = require('../dist/chalk').default;
+const printPrettyError = require('../dist/cjs/print-pretty-error').default;
+const chalk = require('../dist/cjs/chalk').default;
 
 // Holders for capturing console.error output
 let spy;

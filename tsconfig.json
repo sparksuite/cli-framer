@@ -1,21 +1,8 @@
 {
-	"compilerOptions": {
-		"declaration": true,
-		"declarationMap": true,
-		"esModuleInterop": true,
-		"module": "commonjs",
-		"moduleResolution": "node",
-		"noImplicitAny": true,
-		"noUnusedLocals": true,
-		"outDir": "./dist",
-		"removeComments": true,
-		"resolveJsonModule": true,
-		"rootDir": "src",
-		"sourceMap": true,
-		"strict": true,
-		"strictNullChecks": true,
-		"target": "es6"
-	},
-	"include": ["src/**/*"],
-	"exclude": ["node_modules"]
+    "extends": "./tsconfig-base.json",
+    "compilerOptions": {
+        "module": "esnext",
+        "outDir": "dist/mjs",
+        "target": "esnext"
+    }
 }

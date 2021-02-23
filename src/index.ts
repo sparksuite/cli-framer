@@ -9,10 +9,12 @@ const waterfall = {
 	printError,
 };
 
-export = {
-	...waterfall,
-	default: waterfall,
-};
+// export = {
+// 	...waterfall,
+// 	default: waterfall,
+// };
+
+export default waterfall;
 
 // Expose some types
 export type { Settings, CommandSpec } from './types';
